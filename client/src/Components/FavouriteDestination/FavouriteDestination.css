@@ -1,0 +1,36 @@
+.favitems {
+    margin: 100px 170px;
+}
+
+.favitems hr {
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+}
+
+.favtitems-format-main {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.favitems-format {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.favicon-destination-icon {
+    height: 170px;
+}
+
+.favicon-remove-icon {
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}

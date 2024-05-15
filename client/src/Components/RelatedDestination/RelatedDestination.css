@@ -1,0 +1,37 @@
+.relateddestinations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.relateddestinations h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.relateddestinations hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+.relateddestination-item {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .relateddestinations h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+}

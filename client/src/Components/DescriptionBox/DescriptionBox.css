@@ -1,0 +1,79 @@
+.descriptionbox {
+    margin: 100px 170px 100px;
+    border: 1px solid #d0d0d0;
+    border-radius: 2px;
+}
+
+.descriptionbox-navigator {
+    display: flex;
+    border-bottom: 1px solid #d0d0d0;
+    background: #FBFBFB;
+    color: #555;
+}
+
+.descriptionbox-nav-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+}
+
+.descriptionbox-description {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    /* border: 1px solid #D0D0D0; */
+    border-radius: 10px;
+    padding: 30px;
+    padding-bottom: 40px;
+}
+
+.add-review {
+    /* margin-top: 20px; */
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.add-review form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-review textarea {
+    /* height: 1px; */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 0 10px 10px rgb(217 16 73 / 10%);
+    resize: none;
+    outline: none;
+}
+
+.add-review textarea:focus {
+    border: none;
+    /* Remove the border on focus */
+}
+
+
+.add-review button {
+    align-self: flex-end;
+    padding: 8px 15px;
+    background-color: #FF4141;
+    /* Facebook blue */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-review button:hover {
+    background-color: #166fe5;
+    /* Darker Facebook blue on hover */
+}

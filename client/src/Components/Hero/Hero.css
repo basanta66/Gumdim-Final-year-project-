@@ -1,0 +1,122 @@
+.hero {
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding-left: 180px;
+    line-height: 3.0rem;
+}
+
+.hero-left p {
+    color: #171717;
+    font-size: 3.5rem;
+    line-height: 1;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    mix-blend-mode: color-burn;
+}
+
+.hero-right img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.hero-left a {
+    display: flex;
+    text-decoration: none;
+}
+
+.add-des-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 3rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 20px;
+    color: white;
+    background: #FF4141;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .hero {
+        width: 100%;
+    }
+
+    .hero-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1;
+        /* gap: 20px; */
+        padding-left: 50px;
+        line-height: 3.0rem;
+    }
+
+    .hero-left p {
+        font-size: 3rem;
+    }
+
+    .hero-right {
+        /* flex: 1; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        mix-blend-mode: color-burn;
+    }
+
+    .hero-right img {
+        width: 50%;
+        height: 50%;
+        object-fit: contain;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .hero {
+        /* height: 90vh; */
+        width: 100%;
+
+    }
+
+    .hero-left {
+        line-height: 1.0rem;
+    }
+
+    .hero-left p {
+        font-size: 2rem;
+
+    }
+
+    .hero-right img {
+        width: 40%;
+        height: 40%;
+        object-fit: contain;
+    }
+}

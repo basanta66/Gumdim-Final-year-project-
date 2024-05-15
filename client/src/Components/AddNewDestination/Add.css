@@ -1,0 +1,59 @@
+.add-des-container {
+
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.add-destination-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    /* background-color: #f8f8f8; */
+    border-radius: 10px;
+    margin: 5rem auto;
+}
+
+.add-destination-form label {
+    margin-bottom: 5px;
+}
+
+.add-destination-form input[type='text'],
+.add-destination-form input[type='tel'],
+.add-destination-form select,
+.add-destination-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.add-destination-form textarea {
+    resize: vertical;
+}
+
+.add-destination-form button {
+    width: 100%;
+    padding: 10px;
+    background: #FF4141;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-destination-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .add-destination-form {
+        max-width: 90%;
+    }
+}

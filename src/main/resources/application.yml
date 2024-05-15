@@ -1,0 +1,39 @@
+spring:
+  config:
+    import: classpath:credential.yml
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ghumdim?createDatabaseIfNotExist=true
+    username: root
+    password: root
+
+
+  # email
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${email.username}
+    password: ${email.password}
+    properties:
+      mail:
+        smtp:
+          auth: true
+        starttls:
+          enable: true
+
+  #JPA
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+      database: mysql
+      database-platform: org.hibernate.dialect.MySQLDialect
+
+#spring ai
+#  ai.openai.apikey =
+  ai:
+    openai:
+      api-key: ${openAi.key}

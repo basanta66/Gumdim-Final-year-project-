@@ -1,0 +1,81 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.popular h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.popular hr {
+
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+.popular .showmore-btn {
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    align-self: flex-start;
+    padding: 0px 16px;
+    margin: 0 0 0 30px;
+    width: 80px;
+    height: 2rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 20px;
+    background: #FF4141;
+    /* margin-top: 1rem; */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.popular .showmore-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.popular-destination {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .popular {
+        /* gap: 10px; */
+        margin-bottom: 10px;
+    }
+
+    .popular h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .popular hr {
+
+        width: 100px;
+        height: 4px;
+        border-radius: 10px;
+
+    }
+
+    .popular-destination {
+        margin-top: 25px;
+        gap: 8px;
+    }
+}

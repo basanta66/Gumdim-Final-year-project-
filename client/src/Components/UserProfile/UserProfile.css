@@ -1,0 +1,28 @@
+.user-profile {
+    padding: 10px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.user-profile h2 {
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
+
+.user-profile .userprofile-container {
+
+    margin-left: 20px;
+}
+
+.user-profile div {
+    margin-bottom: 10px;
+}
+
+.user-profile strong {
+    margin-right: 5px;
+}

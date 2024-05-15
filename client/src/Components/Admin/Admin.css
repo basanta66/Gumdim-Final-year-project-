@@ -1,0 +1,83 @@
+.admin-panel {
+    margin: 50px;
+    /* Adjust margin as needed */
+    overflow-x: auto;
+    /* Enable horizontal scrolling on smaller screens */
+}
+
+.admin-panel h1 {
+    font-weight: 700;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.admin-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.admin-table img {
+    max-width: 100px;
+    /* Limit image width */
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: contain;
+    max-height: 100px;
+    /* Add max-height to prevent stretching */
+    margin: auto;
+    /* Center the image horizontally */
+}
+
+.admin-table button {
+    margin-left: 10px;
+    width: 50px;
+    height: 20px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 20px;
+    color: white;
+    background: #FF4141;
+    /* margin-bottom: 40px; */
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.admin-table {
+    /* margin-left: 10px; */
+    width: 100%;
+    height: 20px;
+    font-size: 0.9rem;
+    /* font-weight: 600; */
+    border-radius: 20px;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Add media query for better responsiveness */
+@media screen and (max-width: 768px) {
+    .admin-table {
+        overflow-x: auto;
+        /* Enable horizontal scrolling for small screens */
+    }
+
+    .admin-table th,
+    .admin-table td {
+        font-size: 14px;
+        /* Reduce font size for smaller screens */
+    }
+}

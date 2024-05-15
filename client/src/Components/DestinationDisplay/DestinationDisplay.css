@@ -1,0 +1,110 @@
+.destinationdisplay {
+    display: flex;
+    padding: 50px;
+    margin: 0px 100px;
+    margin-bottom: 5rem;
+    /* flex-direction: column; */
+    /* height: 90vh; */
+}
+
+.destinationdisplay-left {
+    display: flex;
+
+}
+
+.destinationdisplay-main-img {
+    object-fit: contain;
+    width: 500px;
+    height: 500px;
+}
+
+.destinationdisplay-right {
+    margin: 0px 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.destinationdisplay-right h1 {
+    color: #3d3d3d;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.destinationdisplay-right-star {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+
+.destinationdisplay-right-description {
+    margin: 10px 0px 5px 0px;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: #1c1c1c;
+    padding: 10px;
+    max-width: 400px;
+}
+
+.destinationdisplay-right-description h4 {
+    text-decoration: underline;
+}
+
+.destinationdisplay-right button {
+    padding: 6px 16px;
+    width: 170px;
+    height: 3rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 20px;
+    color: white;
+    background: #FF4141;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .destinationdisplay {
+        display: flex;
+        margin: 0px 50px;
+        margin-bottom: 10rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .destinationdisplay-main-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .destinationdisplay-right h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .destinationdisplay-right button {
+        padding: 6px 16px;
+        width: 90px;
+        height: 30px;
+        font-size: 0.6rem;
+        font-weight: 700;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .destinationdisplay-right-description {
+        margin: 10px 0px 5px 0px;
+        padding: 5px;
+        max-width: 200px;
+        font-size: 10px;
+    }
+
+}
